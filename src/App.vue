@@ -9,12 +9,12 @@
       <!-- <mu-search  v-if="!isMobile"  slot="right" /> -->
       <mu-menu slot="right" open-on-hover :open.sync="activeMenu" placement="bottom-end">
         <mu-button flat>
-          <img v-if="lang && lang.img" :srcset="`${lang.img(32)}, ${lang.img(48)} 1.5x, ${lang.img(64)} 2x`" :src="lang.img(32)" alt="">
+          <span style="font-size:24px">{{lang.emoji}}</span>
         </mu-button>
         <mu-list slot="content">
           <mu-list-item button v-for="item in langs" :key="item.lang" @click="changeLang(item.lang)">
             <mu-list-item-action>
-              <img v-if="item.img" :srcset="`${item.img(32)}, ${item.img(48)} 1.5x, ${item.img(64)} 2x`" :src="item.img(24)" alt="">
+              <span style="font-size:24px">{{item.emoji}}</span>
             </mu-list-item-action>
             <mu-list-item-title>{{item.desc}}</mu-list-item-title>
           </mu-list-item>
