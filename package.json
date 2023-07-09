@@ -34,9 +34,9 @@
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-container": "^3.0.0",
     "transliteration": "^2.3.5",
-    "vue-loader": "15.10.1",
+    "vue-loader": "^15.10.1",
     "vue-markdown-loader": "^2.5.0",
-    "vue-template-compiler": "2.6.14",
+    "vue-template-compiler": "^2.7.14",
     "webpack": "^5.88.1"
   },
   "browserslist": [
