@@ -6,7 +6,7 @@
         <mu-icon size="24" value="menu"/>
       </mu-button>
       {{pageName || ''}}
-      <mu-search  v-if="!isMobile"  slot="right" />
+      <!-- <mu-search  v-if="!isMobile"  slot="right" /> -->
       <mu-menu slot="right" open-on-hover :open.sync="activeMenu" placement="bottom-end">
         <mu-button flat>
           <img v-if="lang && lang.img" :srcset="`${lang.img(32)}, ${lang.img(48)} 1.5x, ${lang.img(64)} 2x`" :src="lang.img(32)" alt="">
@@ -74,7 +74,7 @@ import langs from './configs/lang';
 import { changeLocale } from './locale';
 import MuseUI from 'muse-ui';
 import i18n from './configs/i18n';
-import Search from './components/search';
+// import Search from './components/search';
 
 export default {
   name: 'App',
@@ -166,7 +166,7 @@ export default {
   components: {
     'mu-backtop': BackTop,
     'app-nav-drawer': AppNavDrawer,
-    'mu-search': Search
+    //'mu-search': Search
   }
 };
 
