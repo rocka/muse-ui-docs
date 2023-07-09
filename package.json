@@ -10,6 +10,7 @@
   "dependencies": {
     "@rocka/muse-ui": "^3.0.10",
     "fastclick": "^1.0.6",
+    "material-design-icons-iconfont": "^6.7.0",
     "muse-ui-carbon-theme": "^0.1.0",
     "muse-ui-loading": "^0.2.0",
     "muse-ui-message": "^0.2.1",
