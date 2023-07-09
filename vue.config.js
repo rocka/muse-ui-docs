@@ -4,6 +4,7 @@ module.exports = {
   parallel: false,
   chainWebpack (config) {
     config.resolve.extensions.add('.md');
+    config.resolve.alias.set('muse-ui', '@rocka/muse-ui');
     config.module
       .rule('md')
       .test(/\.md/)

@@ -14,7 +14,7 @@ module.exports = {
     if (lang && hljs.getLanguage(lang)) {
       try {
         return '<pre class="hljs"><code>' +
-               hljs.highlight(lang, str, true).value +
+               hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
                '</code></pre>';
       } catch (__) {}
     }
@@ -25,8 +25,7 @@ module.exports = {
     [require('markdown-it-anchor'), {
       level: 2,
       slugify: slugify,
-      permalink: true,
-      permalinkBefore: true
+      permalink: require('markdown-it-anchor').permalink.linkInsideHeader({ placement: 'before' })
     }],
     [require('markdown-it-container'), 'demo', {
       validate: function (params) {

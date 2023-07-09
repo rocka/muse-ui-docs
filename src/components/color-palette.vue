@@ -18,8 +18,8 @@
 </mu-row>
 </template>
 <script>
-import * as colors from 'muse-ui/es5/theme/colors';
-import { getContrastRatio } from 'muse-ui/es5/utils/colorManipulator';
+import * as colors from 'muse-ui/lib/theme/colors';
+import { getContrastRatio } from 'muse-ui/lib/utils/colorManipulator';
 const mainColors = [
   'Red', 'Pink', 'Purple', 'Deep Purple', 'Indigo', 'Blue', 'Light Blue',
   'Cyan', 'Teal', 'Green', 'Light Green', 'Lime', 'Yellow', 'Amber', 'Orange',
