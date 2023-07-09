@@ -8,12 +8,11 @@ The growth of Muse UI is inseparable from the support of everyone. If you wish t
 
 ## Issue Guidelines
 
-* Issues are only used for submitting Bug or Feature related content, other content may be closed directly. For usage problems, we can discuss it together on [gitter](https://gitter.im/muse-ui/muse-ui).
+* Issues are only used for submitting Bug or Feature related content, other content may be closed directly.
 
 * Before submitting an issue, please search if any related issues have already been submitted.
 
 * Please state the version number of Muse UI and Vue, also provide us with your operating system and browser information. We recommend using [JSFiddle](https://jsfiddle.net/) to generate an online demo for reproducing the problem more intuitively.
-
 
 ## Pull Request Guidelines
 
@@ -34,7 +33,7 @@ The growth of Muse UI is inseparable from the support of everyone. If you wish t
 First, you need Node.js 8+ and NPM 4+.
 
 ```bash
-git clone git@github.com:museui/muse-ui.git
+git clone git@github.com:rocka/muse-ui.git
 npm run dev
 
 # open http://localhost:3000
@@ -60,4 +59,3 @@ npm run build
 ## Code Guidelines
 
 ESLint [standard](https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style) Style Guide. We recommend adding the ESLint plugin to your IDE.
-

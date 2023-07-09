@@ -12,9 +12,6 @@ export default {
       name: '参与贡献',
       path: '/contributing'
     }, {
-      name: '支持Muse-UI',
-      path: '/support'
-    }, {
       name: '更新日志',
       path: '/changelog'
     }]

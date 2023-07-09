@@ -39,24 +39,19 @@
         </mu-button>
         <mu-list slot="content">
           <mu-sub-header>{{i18n.community}}</mu-sub-header>
-          <mu-list-item button href="https://gitter.im/muse-ui/muse-ui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank">
-            <mu-list-item-content>
-              <mu-list-item-title>{{i18n.chat}}</mu-list-item-title>
-            </mu-list-item-content>
-          </mu-list-item>
-          <mu-list-item button href="https://github.com/museui/muse-ui/issues" target="_blank">
+          <mu-list-item button href="https://github.com/rocka/muse-ui/issues" target="_blank">
             <mu-list-item-content>
               <mu-list-item-title>{{i18n.issue}}</mu-list-item-title>
             </mu-list-item-content>
           </mu-list-item>
-          <mu-list-item button to="`/${locale}/contributing`">
+          <mu-list-item button :to="`/${locale}/contributing`">
             <mu-list-item-content>
               <mu-list-item-title>{{i18n.contributing}}</mu-list-item-title>
             </mu-list-item-content>
           </mu-list-item>
         </mu-list>
       </mu-menu>
-      <mu-button icon href="https://github.com/museui/muse-ui" v-if="!isMobile" slot="right">
+      <mu-button icon href="https://github.com/rocka/muse-ui" v-if="!isMobile" slot="right">
         <mu-icon size="24" value=":mudocs-icon-custom-github"/>
       </mu-button>
     </mu-appbar>

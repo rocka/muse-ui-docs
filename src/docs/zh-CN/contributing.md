@@ -8,12 +8,11 @@ Muse UI 的成长离不开大家的支持，如果你愿意为 Muse UI 贡献代
 
 ## Issue 规范
 
-* issue 仅用于提交 Bug 或 Feature 相关的内容，其它内容可能会被直接关闭。使用上有问题可以来 [gitter](https://gitter.im/muse-ui/muse-ui) 大家一起讨论
+* issue 仅用于提交 Bug 或 Feature 相关的内容，其它内容可能会被直接关闭。
 
 * 在提交 issue 之前，请搜索相关内容是否已被提出。
 
 * 请说明 Muse UI 和 Vue 的版本号，并提供操作系统和浏览器信息。推荐使用 [JSFiddle](https://jsfiddle.net/) 生成在线 demo，这能够更直观地重现问题。
-
 
 ## Pull Request 规范
 
@@ -34,7 +33,7 @@ Muse UI 的成长离不开大家的支持，如果你愿意为 Muse UI 贡献代
 首先你需要 Node.js 8+ 和 NPM 4+
 
 ```bash
-git clone git@github.com:museui/muse-ui.git
+git clone git@github.com:rocka/muse-ui.git
 npm run dev
 # open http://localhost:3000
 ```

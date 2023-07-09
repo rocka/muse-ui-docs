@@ -31,7 +31,7 @@ export default {
               <mu-list-item button to={'/' + this.locale}>
                 <mu-list-item-title>v{this.version}</mu-list-item-title>
               </mu-list-item>
-              <mu-list-item button={true} href='/2.1.0'>
+              <mu-list-item button={true} href='/2.1.0/'>
                 <mu-list-item-title>v2.10.0</mu-list-item-title>
               </mu-list-item>
             </mu-list>

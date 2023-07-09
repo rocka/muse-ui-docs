@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import 'typeface-roboto';
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import 'material-design-icons-iconfont/dist/material-design-icons-no-codepoints.css'
 import './assets/font-icons/style.css';
 import './assets/github-markdown.css';
 import './assets/atom-one-light.css';

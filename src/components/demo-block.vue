@@ -51,11 +51,11 @@ export default {
     },
     goJsfiddle () {
       const { script, html, style } = this.jsfiddle;
-      const resourcesTpl = '<link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">\n<script src="//unpkg.com/vue/dist/vue.js"></scr' + 'ipt>' +
-      '\n<scr' + `ipt src="//unpkg.com/muse-ui@${MuseUI.version}/dist/muse-ui.js"></scr` + 'ipt>';
+      const resourcesTpl = '<link rel="stylesheet" href="https://unpkg.com/material-design-icons-iconfont@6/dist/material-design-icons-no-codepoints.min.css">\n<script src="//unpkg.com/vue@2/dist/vue.js"></scr' + 'ipt>' +
+      '\n<scr' + `ipt src="//unpkg.com/@rocka/muse-ui@${MuseUI.version}/dist/muse-ui.js"></scr` + 'ipt>';
       let jsTpl = (script || '').replace(/export default/, 'var Main =').trim();
       let htmlTpl = `${resourcesTpl}\n<div id="app">\n${html.trim()}\n</div>`;
-      let cssTpl = `@import url("//unpkg.com/muse-ui@${MuseUI.version}/dist/muse-ui.css");\n${(style || '').trim()}\n`;
+      let cssTpl = `@import url("//unpkg.com/@rocka/muse-ui@${MuseUI.version}/dist/muse-ui.css");\n${(style || '').trim()}\n`;
       jsTpl = jsTpl
         ? jsTpl + '\nvar Ctor = Vue.extend(Main)\nnew Ctor().$mount(\'#app\')'
         : '\nnew Vue().$mount(\'#app\')';
